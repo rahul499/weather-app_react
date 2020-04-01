@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  font-size: calc(12px + 2vmin);
+  background: url("images/bg.jpg");
+  border: 5px solid #05365b}
+
+.App-logo {
+  height: 18vmin;
+  width: 175px ;
+  pointer-events: none;
+}
+
+.abc{
+    border: 4px solid #05365b;
+    background: url("images/sunny.jpg");
+   margin:5px; padding: 3px;
+   display: table; width: 40%;   
+}
+
+.App1{
+  border: 4px solid #05365b;
+}
+.App-header {
+   background: url("images/day.jpg");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(12px + 2vmin);
+  color: white;
+  border: 4px solid #05365b;
+}
+
+.erro {
+  background-color: pink;
+  color: red;
+
+}
+button {
+border: 0;
+padding: 8px 20px;
+margin: 0 2px;
+border-radius: 2px;
+font-weight: lighter;
+letter-spacing: 1px;
+font-size: 15px;
+cursor: pointer;
+background-color: #f16051;
+color: #fff;
+font-weight: 100;
+}
+
+
+input[type="text"] {
+
+background-color: transparent;
+border: 0;
+border-bottom: solid 1px #f16051;
+width: 30%;
+padding-bottom: 4px;
+color: #fff !important;
+font-weight: lighter;
+letter-spacing: 2px;
+margin-bottom: 30px;
+margin-right: 20px;
+font-size: 20px;
+outLine : none;
+
+}
